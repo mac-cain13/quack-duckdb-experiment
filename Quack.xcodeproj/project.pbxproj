@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D54DFC7E2918607600DAC6AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D5C3B4F729183CFD00C9187B /* Quack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C3B4FA29183CFD00C9187B /* QuackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackApp.swift; sourceTree = "<group>"; };
 		D5C3B4FC29183CFD00C9187B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		D5C3B4EE29183CFD00C9187B = {
 			isa = PBXGroup;
 			children = (
+				D54DFC7E2918607600DAC6AE /* README.md */,
 				D5C3B4F929183CFD00C9187B /* Quack */,
 				D5C3B50B29183CFE00C9187B /* QuackTests */,
 				D5C3B51529183CFE00C9187B /* QuackUITests */,
