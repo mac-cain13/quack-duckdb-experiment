@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "cduckdb-test",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mac-cain13/cduckdb-test",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b3718e49afe7c51e049e13acb09c1b8667478c35"
+      }
+    }
+  ],
+  "version" : 2
+}

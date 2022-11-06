@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5C3B4FB29183CFD00C9187B /* QuackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3B4FA29183CFD00C9187B /* QuackApp.swift */; };
+		D5C3B4FD29183CFD00C9187B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3B4FC29183CFD00C9187B /* ContentView.swift */; };
+		D5C3B4FF29183CFE00C9187B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C3B4FE29183CFE00C9187B /* Assets.xcassets */; };
+		D5C3B50329183CFE00C9187B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C3B50229183CFE00C9187B /* Preview Assets.xcassets */; };
+		D5C3B50D29183CFE00C9187B /* QuackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3B50C29183CFE00C9187B /* QuackTests.swift */; };
+		D5C3B51729183CFE00C9187B /* QuackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3B51629183CFE00C9187B /* QuackUITests.swift */; };
+		D5C3B51929183CFE00C9187B /* QuackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3B51829183CFE00C9187B /* QuackUITestsLaunchTests.swift */; };
+		D5C3B52729184C2B00C9187B /* duckdb in Frameworks */ = {isa = PBXBuildFile; productRef = D5C3B52629184C2B00C9187B /* duckdb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5C3B50929183CFE00C9187B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C3B4EF29183CFD00C9187B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C3B4F629183CFD00C9187B;
+			remoteInfo = Quack;
+		};
+		D5C3B51329183CFE00C9187B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C3B4EF29183CFD00C9187B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C3B4F629183CFD00C9187B;
+			remoteInfo = Quack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5C3B4F729183CFD00C9187B /* Quack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C3B4FA29183CFD00C9187B /* QuackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackApp.swift; sourceTree = "<group>"; };
+		D5C3B4FC29183CFD00C9187B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5C3B4FE29183CFE00C9187B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C3B50029183CFE00C9187B /* Quack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quack.entitlements; sourceTree = "<group>"; };
+		D5C3B50229183CFE00C9187B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5C3B50829183CFE00C9187B /* QuackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C3B50C29183CFE00C9187B /* QuackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackTests.swift; sourceTree = "<group>"; };
+		D5C3B51229183CFE00C9187B /* QuackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C3B51629183CFE00C9187B /* QuackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackUITests.swift; sourceTree = "<group>"; };
+		D5C3B51829183CFE00C9187B /* QuackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5C3B4F429183CFD00C9187B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C3B52729184C2B00C9187B /* duckdb in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3B50529183CFE00C9187B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3B50F29183CFE00C9187B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5C3B4EE29183CFD00C9187B = {
+			isa = PBXGroup;
+			children = (
+				D5C3B4F929183CFD00C9187B /* Quack */,
+				D5C3B50B29183CFE00C9187B /* QuackTests */,
+				D5C3B51529183CFE00C9187B /* QuackUITests */,
+				D5C3B4F829183CFD00C9187B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5C3B4F829183CFD00C9187B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3B4F729183CFD00C9187B /* Quack.app */,
+				D5C3B50829183CFE00C9187B /* QuackTests.xctest */,
+				D5C3B51229183CFE00C9187B /* QuackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C3B4F929183CFD00C9187B /* Quack */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3B4FA29183CFD00C9187B /* QuackApp.swift */,
+				D5C3B4FC29183CFD00C9187B /* ContentView.swift */,
+				D5C3B4FE29183CFE00C9187B /* Assets.xcassets */,
+				D5C3B50029183CFE00C9187B /* Quack.entitlements */,
+				D5C3B50129183CFE00C9187B /* Preview Content */,
+			);
+			path = Quack;
+			sourceTree = "<group>";
+		};
+		D5C3B50129183CFE00C9187B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3B50229183CFE00C9187B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5C3B50B29183CFE00C9187B /* QuackTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3B50C29183CFE00C9187B /* QuackTests.swift */,
+			);
+			path = QuackTests;
+			sourceTree = "<group>";
+		};
+		D5C3B51529183CFE00C9187B /* QuackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3B51629183CFE00C9187B /* QuackUITests.swift */,
+				D5C3B51829183CFE00C9187B /* QuackUITestsLaunchTests.swift */,
+			);
+			path = QuackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5C3B4F629183CFD00C9187B /* Quack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C3B51C29183CFE00C9187B /* Build configuration list for PBXNativeTarget "Quack" */;
+			buildPhases = (
+				D5C3B4F329183CFD00C9187B /* Sources */,
+				D5C3B4F429183CFD00C9187B /* Frameworks */,
+				D5C3B4F529183CFD00C9187B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quack;
+			packageProductDependencies = (
+				D5C3B52629184C2B00C9187B /* duckdb */,
+			);
+			productName = Quack;
+			productReference = D5C3B4F729183CFD00C9187B /* Quack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5C3B50729183CFE00C9187B /* QuackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C3B51F29183CFE00C9187B /* Build configuration list for PBXNativeTarget "QuackTests" */;
+			buildPhases = (
+				D5C3B50429183CFE00C9187B /* Sources */,
+				D5C3B50529183CFE00C9187B /* Frameworks */,
+				D5C3B50629183CFE00C9187B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C3B50A29183CFE00C9187B /* PBXTargetDependency */,
+			);
+			name = QuackTests;
+			productName = QuackTests;
+			productReference = D5C3B50829183CFE00C9187B /* QuackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5C3B51129183CFE00C9187B /* QuackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C3B52229183CFE00C9187B /* Build configuration list for PBXNativeTarget "QuackUITests" */;
+			buildPhases = (
+				D5C3B50E29183CFE00C9187B /* Sources */,
+				D5C3B50F29183CFE00C9187B /* Frameworks */,
+				D5C3B51029183CFE00C9187B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C3B51429183CFE00C9187B /* PBXTargetDependency */,
+			);
+			name = QuackUITests;
+			productName = QuackUITests;
+			productReference = D5C3B51229183CFE00C9187B /* QuackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5C3B4EF29183CFD00C9187B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D5C3B4F629183CFD00C9187B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D5C3B50729183CFE00C9187B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D5C3B4F629183CFD00C9187B;
+					};
+					D5C3B51129183CFE00C9187B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D5C3B4F629183CFD00C9187B;
+					};
+				};
+			};
+			buildConfigurationList = D5C3B4F229183CFD00C9187B /* Build configuration list for PBXProject "Quack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5C3B4EE29183CFD00C9187B;
+			packageReferences = (
+				D5C3B52529184C2B00C9187B /* XCRemoteSwiftPackageReference "cduckdb-test" */,
+			);
+			productRefGroup = D5C3B4F829183CFD00C9187B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5C3B4F629183CFD00C9187B /* Quack */,
+				D5C3B50729183CFE00C9187B /* QuackTests */,
+				D5C3B51129183CFE00C9187B /* QuackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5C3B4F529183CFD00C9187B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C3B50329183CFE00C9187B /* Preview Assets.xcassets in Resources */,
+				D5C3B4FF29183CFE00C9187B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3B50629183CFE00C9187B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3B51029183CFE00C9187B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5C3B4F329183CFD00C9187B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C3B4FD29183CFD00C9187B /* ContentView.swift in Sources */,
+				D5C3B4FB29183CFD00C9187B /* QuackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3B50429183CFE00C9187B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C3B50D29183CFE00C9187B /* QuackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C3B50E29183CFE00C9187B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C3B51929183CFE00C9187B /* QuackUITestsLaunchTests.swift in Sources */,
+				D5C3B51729183CFE00C9187B /* QuackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5C3B50A29183CFE00C9187B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C3B4F629183CFD00C9187B /* Quack */;
+			targetProxy = D5C3B50929183CFE00C9187B /* PBXContainerItemProxy */;
+		};
+		D5C3B51429183CFE00C9187B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C3B4F629183CFD00C9187B /* Quack */;
+			targetProxy = D5C3B51329183CFE00C9187B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5C3B51A29183CFE00C9187B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5C3B51B29183CFE00C9187B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D5C3B51D29183CFE00C9187B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quack/Quack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quack/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Z49PA849J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.Quack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5C3B51E29183CFE00C9187B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quack/Quack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quack/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Z49PA849J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.Quack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5C3B52029183CFE00C9187B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z49PA849J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.QuackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quack";
+			};
+			name = Debug;
+		};
+		D5C3B52129183CFE00C9187B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z49PA849J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.QuackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quack";
+			};
+			name = Release;
+		};
+		D5C3B52329183CFE00C9187B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z49PA849J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.QuackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quack;
+			};
+			name = Debug;
+		};
+		D5C3B52429183CFE00C9187B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z49PA849J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mathijskadijk.QuackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5C3B4F229183CFD00C9187B /* Build configuration list for PBXProject "Quack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C3B51A29183CFE00C9187B /* Debug */,
+				D5C3B51B29183CFE00C9187B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C3B51C29183CFE00C9187B /* Build configuration list for PBXNativeTarget "Quack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C3B51D29183CFE00C9187B /* Debug */,
+				D5C3B51E29183CFE00C9187B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C3B51F29183CFE00C9187B /* Build configuration list for PBXNativeTarget "QuackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C3B52029183CFE00C9187B /* Debug */,
+				D5C3B52129183CFE00C9187B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C3B52229183CFE00C9187B /* Build configuration list for PBXNativeTarget "QuackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C3B52329183CFE00C9187B /* Debug */,
+				D5C3B52429183CFE00C9187B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5C3B52529184C2B00C9187B /* XCRemoteSwiftPackageReference "cduckdb-test" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/cduckdb-test";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5C3B52629184C2B00C9187B /* duckdb */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C3B52529184C2B00C9187B /* XCRemoteSwiftPackageReference "cduckdb-test" */;
+			productName = duckdb;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5C3B4EF29183CFD00C9187B /* Project object */;
+}
